@@ -1,0 +1,311 @@
+header {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://images.pexels.com/photos/1785493/pexels-photo-1785493.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(105, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(136, 29, 29, 0.5); 
+    z-index: 0;
+}
+
+
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #610505ef; 
+    margin-bottom: 10px;
+}
+
+
+.hero .btn {
+    background-color: #743731; 
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+   
+}
+
+.hero .btn:hover {
+    background-color: #e94e39; 
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    /*background: rgb(249, 249, 253);*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    color: rgb(139, 18, 18);
+}
+
+nav .logo img {
+    max-width: 50px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+nav .logo span {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(6, 12, 94);
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.register a {
+    text-decoration: none;
+    color: beige;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: rgb(141, 32, 32);
+    border-radius: 8px;
+}
+
+
+#holiday-discount {
+    background: #ffefdb; 
+    text-align: center;
+    padding: 30px 20px;
+    border: 2px solid #f5c26b; 
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#holiday-discount h2 {
+    font-size: 2rem;
+    color: #e63946; 
+}
+
+#holiday-discount p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+#holiday-discount .btn {
+    background-color: #a10915; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#holiday-discount .btn:hover {
+    background-color: #b02a37; 
+}
+
+
+
+#destinations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#destinations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.destination-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination {
+    margin: 15px;
+    text-align: center;
+}
+
+.destination img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.destination h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #160808;
+}
+
+#services {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    margin: 15px;
+    padding: 20px;
+    background: rgb(179, 130, 130);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#about-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#about-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #160808;
+}
+
+#about-us p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#about-us .container {
+    padding: 0 20px;
+}
+
+
+#contact-us {
+    padding: 50px 20px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+#contact-us h2 {
+    font-size: 2.5rem;
+    color: #140f0f;
+}
+
+#contact-us p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    width: 30%;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item h3 {
+    font-size: 1.5rem;
+    color: #08050e;
+}
+
+.contact-item p {
+    font-size: 1.1rem;
+}
+
+.contact-item a {
+    color: #37088f;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+form button {
+    background: #7a150c;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background: #771007;
+}
+
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
